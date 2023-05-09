@@ -1,0 +1,40 @@
+[
+   {
+     "id": "1",
+     "name": "John Doe",
+     "age": 21,
+     "gender": "male",
+     "major": "Computer Science",
+     "GPA": 3.9,
+     " extracurricular activities": ["Student Government", "Robotics Club", "Coding Club"]
+   },
+   {
+     "id": "2",
+     "name": "Jane Doe",
+     "age": 20,
+     "gender": "female",
+     "major": "Business",
+     "GPA": 3.8,
+     " extracurricular activities": ["Business Club", "Model UN", "Debate Team"]
+   },
+   {
+     "id": "3",
+     "name": "Peter Smith",
+     "age": 19,
+     "gender": "male",
+     "major": "Engineering",
+     "GPA": 3.7,
+     " extracurricular activities": ["Engineering Club", "Robotics Club", "Intramural Sports"]
+   },
+   {
+     "id": "4",
+     "name": "Mary Jones",
+     "age": 18,
+     "gender": "female",
+     "major": "Nursing",
+     "GPA": 3.6,
+     " extracurricular activities": ["Nursing Club", "Volunteer at the local hospital", "Student Government"]
+   }
+ ]
+ 
+ 
