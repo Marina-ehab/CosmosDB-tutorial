@@ -1,38 +1,61 @@
 [
   {
-    "Id": "1",
-    "Name": "John Doe",
-    "Age": 21,
-    "Gender": "Male",
-    "Major": "Computer Science",
-    "Gpa": 3.9,
-    "ExtracurricularActivities": ["Student Government", "Robotics Club", "Coding Club"]
-  },
-  {
-    "Id": "2",
-    "Name": "Jane Doe",
-    "Age": 20,
-    "Gender": "Female",
-    "Major": "Business",
-    "Gpa": 3.8,
-    "ExtracurricularActivities": ["Business Club", "Model Un", "Debate Team"]
-  },
-  {
-    "Id": "3",
-    "Name": "Peter Smith",
-    "Age": 19,
-    "Gender": "Male",
-    "Major": "Engineering",
-    "Gpa": 3.7,
-    "ExtracurricularActivities": ["Engineering Club", "Robotics Club", "Intramural Sports"]
-  },
-  {
-    "Id": "4",
-    "Name": "Mary Jones",
-    "Age": 18,
-    "Gender": "Female",
-    "Major": "Nursing",
-    "Gpa": 3.6,
-    "ExtracurricularActivities": ["Nursing Club", "Volunteer At The Local Hospital", "Student Government"]
-  }
+  "id": "1",
+  "Id":"1",
+  "Discriminator": "Student",
+  "Name": "Milan Doe",
+  "Age": 21,
+  "Gender": "male",
+  "Major": "Computer Engineering",
+  "GPA": 3.5,
+  "ExtracurricularActivities": ["Robotics Club", "Coding Club"]
+},
+
+{
+  "id": "2",
+  "Id":"2",
+  "Discriminator": "Student",
+  "Name": "John Smith",
+  "Age": 20,
+  "Gender": "male",
+  "Major": "Business Administration",
+  "GPA": 3.9,
+  "ExtracurricularActivities": ["Student Government", "Business Club"]
+},
+
+{
+  "id": "3",
+  "Id":"3",
+  "Discriminator": "Student",
+  "Name": "Mary Jones",
+  "Age": 19,
+  "Gender": "female",
+  "Major": "Nursing",
+  "GPA": 4.0,
+  "ExtracurricularActivities": ["Volleyball Team", "Pre-Med Club"]
+},
+
+{
+  "id": "4",
+  "Id":"4",
+  "Discriminator": "Student",
+  "Name": "Alice Green",
+  "Age": 22,
+  "Gender": "female",
+  "Major": "Chemistry",
+  "GPA": 3.8,
+  "ExtracurricularActivities": ["Chemistry Club", "Debate Team"]
+},
+
+{
+  "id": "5",
+  "Id":"5",
+  "Discriminator": "Student",
+  "Name": "David Brown",
+  "Age": 23,
+  "Gender": "male",
+  "Major": "Physics",
+  "GPA": 3.7,
+  "ExtracurricularActivities": ["Physics Club", "Robotics Team"]
+}
 ]
